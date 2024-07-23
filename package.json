@@ -1,7 +1,7 @@
 {
-  "dependencies": {
-    "react": "^18.3.1",
-    "swiper": "^11.1.6",
-    "tailwindcss": "^3.4.6"
+  "name": "root",
+  "version": "1.0.0",
+  "scripts": {
+    "heroku-postbuild": "cd cmidoor && npm install && npm run build"
   }
 }
